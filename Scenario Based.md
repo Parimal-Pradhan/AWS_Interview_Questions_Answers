@@ -81,3 +81,38 @@ Real-world questions to help you crack it.👇
 - Use AWS Systems Manager Patch Manager for automated patching.
 - Implement Amazon Inspector for vulnerability assessments.
 - Schedule patching during maintenance windows to avoid downtime.
+- 
+
+If you’re a DevOps Engineer with 3+ years of experience, these real-world AWS interview questions will test your practical knowledge. Whether you’re preparing for an interview or just want to sharpen your skills, check them out below! 👇
+
+10 Real-Time AWS DevOps Interview Questions & Answers
+
+1️⃣ How do you make an S3 bucket private while allowing access to specific users?
+🔹 Use a bucket policy or IAM policy with explicit deny for s3:GetObject, allowing only specific IAM roles or users.
+
+2️⃣ How do you establish private connectivity between two VPCs?
+🔹 Use VPC Peering or AWS Transit Gateway for scalable communication between multiple VPCs.
+
+3️⃣ What is the difference between a security group and a network ACL?
+🔹 Security groups act as stateful firewalls at the instance level, while network ACLs are stateless and operate at the subnet level.
+
+4️⃣ How do you handle high availability for an EC2 instance?
+🔹 Use Auto Scaling Groups with multiple AZs, an Elastic Load Balancer (ELB), and EBS snapshots for backup.
+
+5️⃣ How do you prevent accidental deletion of an S3 bucket?
+🔹 Enable MFA Delete and S3 Versioning to safeguard against accidental deletions.
+
+6️⃣ What’s the best way to securely connect an on-premises data center to AWS?
+🔹 Use AWS Site-to-Site VPN for encrypted connectivity or AWS Direct Connect for dedicated, high-speed connections.
+
+7️⃣ How do you troubleshoot an EC2 instance that’s unreachable via SSH?
+🔹 Check security groups, network ACLs, route tables, and EC2 instance status checks.
+
+8️⃣ What’s the difference between EBS and Instance Store?
+🔹 EBS is persistent storage that remains after instance termination, while Instance Store is ephemeral and lost upon shutdown.
+
+9️⃣ How do you optimize S3 costs?
+🔹 Use Lifecycle Policies, Intelligent-Tiering, and enable S3 Storage Class Analysis.
+
+🔟 How do you enforce security best practices in AWS DevOps?
+🔹 Implement IAM least privilege, VPC Security Groups, AWS Config, and use AWS Security Hub for continuous monitoring.
